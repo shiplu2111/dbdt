@@ -1,0 +1,251 @@
+/**
+Commons
+*/
+*, *:focus,.btn,.btn:focus{
+	outline: 0!important;
+	text-decoration: none;
+}
+a, button, input{
+	outline: 0;
+	border: 0;
+}
+a, a:hover, a:focus, button:hover, button:focus{
+	text-decoration: none;
+	outline: 0;
+}
+
+body {
+    background: #fff;
+    color: #000000;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+	line-height: 1.5;
+}
+/*-- app gap use pattern --*/
+/*data-xxs = 575
+data-xs = 767
+data-sm = 991
+data-md = 1199
+data-value = normal*/
+
+/**
+Containers fluid
+*/
+/*.container-fluid{
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 2%;
+	margin-right: 2%;
+  
+}
+.container-fluid .row{
+	margin-left: -30px;
+	margin-right: -30px;
+}
+
+.container-fluid .row .col-lg-1, .container-fluid .row .col-lg-10, .container-fluid .row .col-lg-11, .container-fluid .row .col-lg-12, .container-fluid .row .col-lg-2, .container-fluid .row .col-lg-3, .container-fluid .row .col-lg-4, .container-fluid .row .col-lg-5, .container-fluid .row .col-lg-6, .container-fluid .row .col-lg-7, .container-fluid .row .col-lg-8, .container-fluid .row .col-lg-9, 
+.container-fluid .row .col-md-1, .container-fluid .row .col-md-10, .container-fluid .row .col-md-11, .container-fluid .row .col-md-12, .container-fluid .row .col-md-2, .container-fluid .row .col-md-3, .container-fluid .row .col-md-4, .container-fluid .row .col-md-5, .container-fluid .row .col-md-6, .container-fluid .row .col-md-7, .container-fluid .row .col-md-8, .container-fluid .row .col-md-9, 
+.container-fluid .row .col-sm-1, .container-fluid .row .col-sm-10, .container-fluid .row .col-sm-11, .container-fluid .row .col-sm-12, .container-fluid .row .col-sm-2, .container-fluid .row .col-sm-3, .container-fluid .row .col-sm-4, .container-fluid .row .col-sm-5, .container-fluid .row .col-sm-6, .container-fluid .row .col-sm-7, .container-fluid .row .col-sm-8, .container-fluid .row .col-sm-9, 
+.container-fluid .row .col-xs-1, .container-fluid .row .col-xs-10, .container-fluid .row .col-xs-11, .container-fluid .row .col-xs-12, .container-fluid .row .col-xs-2, .container-fluid .row .col-xs-3, .container-fluid .row .col-xs-4, .container-fluid .row .col-xs-5, .container-fluid .row .col-xs-6, .container-fluid .row .col-xs-7, .container-fluid .row .col-xs-8, .container-fluid .row .col-xs-9{
+	padding-left: 30px;
+	padding-right: 30px;
+}*/
+
+
+/**
+Containers
+*/
+.container-xlg,
+.container-lg,
+.container-md,
+.container-sm{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-xlg:before,
+.container-xlg:after,
+.container-lg:before,
+.container-lg:after,
+.container-md:before,
+.container-md:after,
+.container-sm:beofre,
+.container-sm:after,
+.container-xs:beofre,
+.container-xs:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.container-xlg{
+	
+}
+.container-lg{
+	max-width: 1280px;
+	width: 100%;
+}
+.container{
+	max-width: 1200px;
+	width: 100%;
+}
+.container-md{
+
+}
+
+.container-sm{
+
+}
+
+.reset-list,
+.ulc{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.inline-bg {
+    background-size: cover!important;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+}
+
+.first:first-child{
+	padding-left: 0;
+	margin-left: 0;
+}
+.last:last-child{
+	padding-right: 0;
+	margin-right: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.hide-lg{
+	display: block!important;
+}
+.show-lg{
+	display: none!important;
+}
+.hide-md{
+	display: block!important;
+}
+.show-md{
+	display: none!important;
+}
+.hide-sm{
+	display: block!important;
+}
+.show-sm{
+	display: none!important;
+}
+.hide-xs{
+	display: block!important;
+}
+.show-xs{
+	display: none!important;
+}
+
+.divider{
+	line-height: 0;
+	font-size: 0;
+}
+.overlay-link{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+
+
+/**
+Selects
+*/
+form .bootstrap-select{
+    text-transform: uppercase;
+	color: #710023;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	width: 100%!important;
+}
+form .bootstrap-select button{
+	background: transparent;
+	border: 0;
+	color: #710023;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+form .bootstrap-select .caret{
+	border: 0;
+}
+form .bootstrap-select .caret::before {
+    content: "\f107";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #710023;
+    font-size: 22px;
+    padding-right: 0;
+    position: absolute;
+    top: -6px;
+    right: 2px;
+    line-height: 15px;
+}
+form .bootstrap-select.open .caret::before{
+	content: "\f106";
+}
+form .open > .dropdown-toggle.btn-default:hover,
+form .btn-default.active, form .btn-default:active, 
+form .open > .dropdown-toggle.btn-default{
+    color: #710023;
+    background-color: transparent;
+    border: 0;
+}
+form .btn-default:hover,
+form .btn-default:focus,
+.btn-default.active.focus, .btn-default.active:focus, 
+.btn-default.active:hover, .btn-default:active.focus, 
+.btn-default:active:focus, .btn-default:active:hover, 
+.open>.dropdown-toggle.btn-default.focus, 
+.open>.dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover{
+    color: #710023;
+    background-color: transparent;
+    border: 0;
+    outline: 0!important;
+}
+form .bootstrap-select .dropdown-toggle:focus{
+	outline: 0!important;
+}
+form  .dropdown-menu{
+    margin: 0;
+    background-color: #cabb9f;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 12px 0 10px;
+}
+form  .dropdown-menu li{
+    position: relative;
+    margin-bottom: 6px;
+}
+form  .dropdown-menu li a{
+	padding-top: 6px;
+	color: #fff;
+}
+.dropdown-menu>.active>a, 
+.dropdown-menu>.active>a:focus, 
+.dropdown-menu>.active>a:hover{
+	background-color: #710023;
+}
+

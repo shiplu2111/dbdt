@@ -1,0 +1,11 @@
+
+@font-face {
+    font-family: 'LatoRegular';
+    src: url('LatoRegular/LatoRegular.eot');
+    src: url('LatoRegular/LatoRegular.eot') format('embedded-opentype'),
+         url('LatoRegular/LatoRegular.woff2') format('woff2'),
+         url('LatoRegular/LatoRegular.woff') format('woff'),
+         url('LatoRegular/LatoRegular.ttf') format('truetype'),
+         url('LatoRegular/LatoRegular.svg#LatoRegular') format('svg');
+    font-weight: normal;
+}

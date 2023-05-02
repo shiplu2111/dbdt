@@ -1,0 +1,287 @@
+/*
+-------------------
+ Contact Form Css
+-------------------
+*/
+.contact-form-sec-wrp{
+	background: #f5f5f5f5;
+	padding: 70px 0 90px;
+}
+.contact-form-head{
+	border-bottom: 2px solid#ddd;
+	margin-bottom: 30px;
+}
+.contact-form-head-title{
+	display: block;
+	font-size: 50px;
+	line-height: 1;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+.contact-form-head p{
+	margin-bottom: 30px;
+}
+.contact-form-lft{
+	width: 65%;
+	float: left;
+	padding-right: 30px;
+}
+.contact-form-field{
+	position: relative;
+}
+.contact-form-field{
+	margin-bottom: 30px;
+}
+.contact-form-field textarea,
+.contact-form-field input[type="phone"],
+.contact-form-field input[type="text"],
+.contact-form-field input[type="email"] {
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    line-height: 1;
+    color: #000;
+    display: inline-block;
+    padding: 15px 20px 15px 150px;
+    height: 50px;
+    z-index: 1;
+    background: transparent;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.contact-form-field textarea {
+    height: 200px;
+    padding-left: 20px;
+    resize: none;
+}
+.contact-form-submit button{
+	max-width: 200px;
+	width: 100%;
+	height: 40px;
+	background: #0090dd;
+	border:2px solid#0090dd;
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.contact-form-submit button:hover{
+	background: transparent;
+	color: #0090dd;
+}
+.contact-form-field label.input-placeholder{
+    color: #fff;
+    font-size: 16px;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    margin: 0;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    background: #0090dd;
+    padding: 18px 10px;
+    text-transform: uppercase;
+    height: 50px;
+    max-width: 140px;
+    width: 100%;
+    text-align: center;
+}
+.contact-form-field textarea:focus + .input-placeholder,
+.contact-form-field input[type="text"]:focus + .input-placeholder,
+.contact-form-field input[type="email"]:focus + .input-placeholder,
+.contact-form-field input[type="phone"]:focus + .input-placeholder,
+input[data-empty="false"] + label.input-placeholder,
+textarea[data-empty="false"] + label.input-placeholder{
+	position: static;
+	margin-top: 10px;
+}
+.contact-form-field textarea:focus,
+.contact-form-field input:focus{
+	padding-left: 20px;
+	border-color:#ff0000;
+}
+.contact-form-rgt{
+	width: 35%;
+	float: right;
+}
+.contact-info-wrp{
+    padding: 35px 30px 35px 30px;
+    background: #0090dd;
+}
+.contact-info-title{
+	display: block;
+	font-size: 30px;
+	line-height: 1;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.contact-info-wrp ul li{
+    display: block;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    position: relative;
+}
+.contact-info-wrp ul li span,
+.contact-info-wrp ul li a{
+    display: inline-block;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 400;
+}
+.contact-info-wrp ul li i{
+    position: absolute;
+    left: 0;
+    top: 5px;
+    color: #30bced;
+    cursor: pointer;
+}
+.contact-info-wrp ul li a i:hover,
+.contact-info-wrp ul li a:hover{
+	color: #30bced;
+}
+
+/*
+-----------------
+Google map Css
+-----------------
+*/
+#googlemap{
+	height: 700px;
+}
+/*
+----------------
+ Responsive Css
+----------------
+*/
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.contact-form-head-title{
+		font-size: 47px;
+	}
+	.contact-form-sec-wrp {
+	    padding: 60px 0 80px;
+	}
+	.contact-info-title{
+		font-size: 29px;
+	}
+	#googlemap{
+		height: 620px;
+	}
+}
+
+@media(max-width: 991px){
+	.contact-form-head-title{
+		font-size: 45px;
+	}
+	.contact-info-wrp {
+	    padding: 30px 20px 30px 20px;
+	}
+	.contact-info-title{
+		font-size: 28px;
+	}
+	#googlemap{
+		height: 570px;
+	}
+
+
+
+}
+
+@media(max-width: 767px){
+	.contact-form-head-title{
+		font-size: 42px;
+		margin-bottom: 20px;
+	}
+	.contact-form-sec-wrp {
+	    padding: 50px 0 60px;
+	}
+	.contact-info-title{
+		font-size: 27px;
+	}
+	.contact-form-head p br{
+		display: none;
+	}
+	.contact-form-lft {
+	    width: 100%;
+	    padding-right: 0;
+	}
+	.contact-form-rgt {
+	    width: 100%;
+	    padding-top: 40px;
+	}
+	.contact-google-map-sec-wrp{
+		margin-bottom: 40px;
+	}
+	#googlemap{
+		height: 500px;
+	}
+
+}
+
+@media(max-width: 575px){
+	.contact-form-head-title{
+		font-size: 40px;
+	}
+	.contact-info-title{
+		font-size: 26px;
+	}
+	.contact-form-field label.input-placeholder {
+	    font-size: 14px;
+	    padding: 15px 10px;
+	    height: 40px;
+	    max-width: 115px;
+	    width: 100%;
+	}
+	.contact-form-field input[type="phone"],
+	.contact-form-field input[type="text"],
+	.contact-form-field input[type="email"] {
+	    width: 100%;
+	    font-size: 14px;
+	    padding: 12px 20px 12px 120px;
+	    height: 40px;
+	}
+	.contact-form-field {
+	    margin-bottom: 20px;
+	}
+	.contact-form-field textarea {
+	    height: 160px;
+	}
+	.contact-form-field textarea:focus,
+	.contact-form-field input:focus{
+		padding-left: 15px;
+	}
+	#googlemap{
+		height: 450px;
+	}
+
+}
+
+@media(max-width: 479px){
+
+
+}
+
+@media(max-width: 359px){
+
+}
+

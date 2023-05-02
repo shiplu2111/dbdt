@@ -1,0 +1,127 @@
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.hide-lg{
+		display: none!important;
+	}
+	.show-lg{
+		display: block!important;
+	}
+	h1{
+		font-size: 48px;
+	}
+	h2{
+		font-size: 33px;
+	}
+	h3{
+		font-size: 28px;
+	}
+	h4{
+		font-size: 24px;
+	}
+	
+
+}
+
+@media(max-width: 991px){
+	.hide-md{
+		display: none!important;
+	}
+	.show-md{
+		display: block!important;
+	}
+	h1{
+		font-size: 45px;
+	}
+	h2{
+		font-size: 32px;
+	}
+	h3{
+		font-size: 27px;
+	}
+	h4{
+		font-size: 23px;
+	}
+	h5{
+		font-size: 21px;
+	}
+	
+	
+}
+
+@media(max-width: 767px){
+	.hide-sm{
+		display: none!important;
+	}
+	.show-sm{
+		display: block!important;
+	}
+	body{
+		font-size: 16px;
+	}
+	h1{
+		font-size: 42px;
+	}
+	h2{
+		font-size: 31px;
+	}
+	h3{
+		font-size: 26px;
+	}
+	h4{
+		font-size: 22px;
+	}
+	h5{
+		font-size: 20px;
+	}
+	h6{
+		font-size: 19px;
+	}
+}
+
+@media(max-width: 575px){
+	.hide-xs{
+		display: none!important;
+	}
+	.show-xs{
+		display: block!important;
+	}
+	h1{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	h3{
+		font-size: 25px;
+	}
+	h4{
+		font-size: 21px;
+	}
+	h5{
+		font-size: 19px;
+	}
+	h6{
+		font-size: 18px;
+	}
+
+}
+
+@media(max-width: 479px){
+
+
+}
+
+@media(max-width: 359px){
+
+}

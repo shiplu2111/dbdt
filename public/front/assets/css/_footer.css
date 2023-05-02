@@ -1,0 +1,255 @@
+/*
+--------------------
+ Footer Css
+--------------------
+*/
+.footer-top{
+	background-color: #004059;
+	background-image: url(../images/footer-top-bg.svg);
+	background-repeat: repeat-x;
+	background-position: center center;
+	background-size: 50%;
+}
+.ftr-col-main{
+	background: #00597c;
+	padding: 80px 40px 40px;
+	border-radius: 12px 12px 0 0;
+	margin-top: -40px;
+	margin-bottom: 40px;
+}
+.ftr-logo {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.ftr-logo a{
+	display: inline-block;
+	vertical-align: baseline;
+	max-width: 100px;
+	width: 100%;
+	float: left;
+}
+.ftr-logo h1 {
+    font-size: 35px;
+    line-height: 1;
+    color: #fff;
+    float: left;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.ftr-logo h1 span{
+	display: block;
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 400;
+}
+.ftr-col-1 p{
+	font-size: 14px;
+	line-height: 1.4;
+	color: #f2f2f2;
+	margin-bottom: 0;
+}
+
+.ftr-col{
+	float: left;
+	padding-right: 50px;
+}
+.ftr-col-1{
+	width: 31%;
+}
+.ftr-col-2{
+	width: 23%;
+}
+.ftr-col-3{
+	width: 23%;
+}
+.ftr-col-4{
+	width: 23%;
+}
+.ftr-col-title{
+	display: block;
+	font-size: 20px;
+	line-height: 1;
+	color: #fff;
+	margin-bottom: 25px;
+}
+.ftr-col > ul > li{
+	font-size: 14px;
+	line-height: 1;
+	padding-left: 20px;
+	position: relative;
+	padding-bottom: 25px;
+}
+.ftr-col > ul > li > a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+	color: #fff;
+}
+.ftr-col > ul > li:after{
+    content: "\f105";
+    position: absolute;
+    top: 2px;
+    left: 0;
+    font-size: 14px;
+    line-height: 1;
+    color: #0090dd;
+    text-decoration: inherit;
+    font-family: 'Font Awesome 5 free';
+    font-weight: 600;
+}
+.ftr-col-socail-icon{
+	padding-top: 20px;
+}
+.ftr-col-socail-icon ul li{
+	float: left;
+	padding: 0 5px;
+}
+.ftr-col-socail-icon ul li:first-child{
+	padding-left: 0;
+}
+.ftr-col-socail-icon ul li a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+	font-size: 17px;
+	line-height: 36px;
+	color: #fff;
+	text-align: center;
+	width: 37px;
+	height: 37px;
+	background: #0090dd;
+	border:2px solid #0090dd;
+	border-radius: 50px;
+}
+.ftr-col-socail-icon ul li a:hover{
+	background:transparent;
+	color: #0090dd;
+}
+/*
+------------------
+ Footer Btm Css
+------------------
+*/
+.footer-btm{
+	background: #00597c;
+	padding: 30px 0;
+}
+.footer-btm-lft{
+	float: left;
+}
+.footer-btm-lft p{
+	font-size: 14px;
+	line-height: 1;
+	color: #fff;
+	margin-bottom: 0;
+}
+.ftr-col > ul > li > a:hover,
+.footer-btm-rgt ul li a:hover{
+	color: #30bced;
+}
+
+/*
+----------------
+ Responsive Css
+----------------
+*/
+@media(max-width: 1499px){
+
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.ftr-col {
+	    padding-right: 40px;
+	}
+	.ftr-col-main {
+	    padding: 80px 30px 40px;
+	}
+	.ftr-col-socail-icon ul li a {
+	    font-size: 16px;
+	    line-height: 30px;
+	    width: 32px;
+	    height: 32px;
+	}
+	
+
+}
+
+@media(max-width: 991px){
+	.ftr-col-1 {
+	    width: 100%;
+	    padding-right: 0;
+	    padding-bottom: 30px;
+	}
+	.ftr-col-1-cntlr{
+		max-width: 500px;
+		width: 100%;
+	}
+	.ftr-col-4,
+	.ftr-col-3,
+	.ftr-col-2{
+		width: 33.3333%;
+	}
+	
+	
+}
+
+@media(max-width: 767px){
+	.ftr-col-4,
+	.ftr-col-3,
+	.ftr-col-2 {
+	    width: 100%;
+	    padding-right: 0;
+	    padding-bottom: 10px;
+	}
+	.ftr-col-main {
+	    padding: 70px 15px 40px;
+	    margin: -40px -15px 30px;
+	    border-radius: 0;
+	}
+	.ftr-col-socail-icon {
+	    padding-top: 15px;
+	}
+	.footer-btm-lft {
+	    float: none;
+	    text-align: center;
+	}
+	.footer-btm-rgt {
+	    float: none;
+	    text-align: center;
+	    display: table;
+	    margin: 0 auto;
+	    padding-bottom: 15px;
+	}
+	.footer-btm-rgt ul{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	.footer-btm-rgt ul li:first-child{
+		padding-left: 0;
+	}
+}
+
+@media(max-width: 575px){
+	
+
+}
+
+@media(max-width: 479px){
+
+
+}
+
+@media(max-width: 359px){
+
+}

@@ -1,0 +1,222 @@
+/*
+-------------------
+ Login Or Register
+-------------------
+*/
+.dbdt-login-register-sec-wrp{
+	padding: 60px 0 100px;
+}
+.dbdt-login-register-lft {
+    width: 50%;
+    float: left;
+    padding-right: 30px;
+}
+.dbdt-login-register-rgt{
+	width: 50%;
+	float: right;
+	padding-left: 30px;
+	position: relative;
+}
+.dbdt-login-register-title{
+	display: block;
+	font-size: 35px;
+	line-height: 1;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.dbdt-form-field{
+	margin-bottom: 20px;
+}
+.dbdt-form-field label{
+	display:block;
+	font-size: 18px;
+	line-height: 1;
+	color: #0090dd;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+	font-weight: 600;
+}
+.dbdt-form-field label span{
+	color: #ff0000;
+}
+.dbdt-form-field input[type="text"],
+.dbdt-form-field input[type="password"],
+.dbdt-form-field input[type="email"]{
+	display: inline-block;
+	vertical-align: baseline;
+	width: 100%;
+	height:50px;
+	font-size: 16px;
+	line-height: 1;
+	color: #000;
+	font-weight: 400;
+	border:1px solid#ddd;
+	padding: 10px 20px;
+}
+.dbdt-form-submit button{
+	max-width: 200px;
+	width: 100%;
+	height: 50px;
+	background: #0090dd;
+	border:2px solid#0090dd;
+	font-size: 16px;
+	line-height: 1;
+	font-weight: 600;
+	color: #fff;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.dbdt-form-submit button:hover{
+	background: transparent;
+	color: #0090dd;
+}
+.dbdt-singup-form-or {
+    position: absolute;
+    left: -1px;
+    top: 0;
+    bottom: 0;
+    background: #ddd;
+    width: 1px;
+    height: 100%;
+}
+.dbdt-singup-form-or span {
+    position: absolute;
+    top: 50%;
+    right: -16px;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    background: #fff;
+    padding: 10px 5px;
+    font-size: 16px;
+    line-height: 1;
+    color: #0090dd;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.dbdt-form-psw{
+	margin-bottom: 20px;
+}
+.dbdt-form-psw a {
+    display: inline-block;
+    vertical-align: baseline;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1;
+    color: #0090dd;
+    font-weight: 600;
+}
+.dbdt-form-psw a:hover{
+	color: #ff0000;
+}
+.dbdt-form-field input[type="text"]:focus,
+.dbdt-form-field input[type="password"]:focus,
+.dbdt-form-field input[type="email"]:focus{
+	border-color: #ff0000;
+}
+
+/*
+----------------
+ Responsive Css
+----------------
+*/
+@media(max-width: 1499px){
+}
+
+@media(max-width: 1399px){
+
+}
+
+@media(max-width: 1299px){
+
+}
+
+@media(max-width: 1199px){
+	.dbdt-login-register-title{
+		font-size: 33px;
+	}
+}
+
+@media(max-width: 991px){
+	.dbdt-login-register-title{
+		font-size: 31px;
+	}
+	
+	
+}
+
+@media(max-width: 767px){
+	.dbdt-login-register-title{
+		font-size: 29px;
+	}
+	.dbdt-login-register-wrp{
+		max-width: 600px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.dbdt-login-register-lft {
+	    width: 100%;
+	    float: left;
+	    padding-right: 0;
+	    padding-bottom: 30px;
+	}
+	.dbdt-login-register-rgt {
+	    width: 100%;
+	    padding-left: 0;
+	    padding-top: 30px;
+	}
+	.dbdt-singup-form-or {
+	    left: auto;
+	    top: 0;
+	    bottom: auto;
+	    width: 100%;
+	    height: 1px;
+	    right: 0;
+	}
+	.dbdt-singup-form-or span {
+	    position: absolute;
+	    top: 50%;
+	    right: auto;
+	    left: 50%;
+	    transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	    -webkit-transform: translate(-50%,-50%);
+	}
+	.dbdt-login-register-sec-wrp {
+	    padding: 40px 0 80px;
+	}
+}
+
+@media(max-width: 575px){
+	.dbdt-login-register-title{
+		font-size: 27px;
+	}
+	.dbdt-form-field label{
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+	.dbdt-form-field input[type="text"],
+	.dbdt-form-field input[type="password"],
+	.dbdt-form-field input[type="email"]{
+		height: 40px;
+		font-size: 14px;
+		padding: 10px 15px;
+	}
+	.dbdt-form-submit button{
+		max-width: 160px;
+		height: 40px;
+		font-size: 14px;
+	}
+
+}
+
+@media(max-width: 479px){
+	
+
+}
+
+@media(max-width: 359px){
+	
+}
